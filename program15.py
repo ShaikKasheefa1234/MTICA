@@ -1,10 +1,14 @@
-def count_vowel(s):
-    n_vowel=0
-    for i in s:
-        if i in 'AEIOUaeiou':
-            n_vowel+=1
-    return n_vowel
+Lst=[10,15,20,25,30,35,40,45]
+ans=[]
+for i in Lst:
+    ans.append(i**0.5)
+print(ans)
 
-str1=input()
-a=count_vowel(str1)
-print("No of vowels in:'",str1,"'is",a)
+
+
+'''Lst=[10,15,20,25,30,35,40,45]
+ans=[]
+for i in Lst:
+    ans.append(round(i**0.5,4))
+print(ans)'''
+
