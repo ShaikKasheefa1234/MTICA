@@ -1,10 +1,20 @@
-def count_Specialcharacters(s):
-    specialcharacters=0
-    for i in s:
-        if i in 'BCDFGHJKLMNPQRSTVWXYZbcdfghjklmnpqrstvwxyz1133434':
-            specialcharacters+=1
-    return specialcharacters
+##def add_five(x):
+##    temp=x+5
+##    return temp
+##nums=[11,22,33,44,55]
+##result=list(map(add_five,nums))
+##print(nums)
+##print(result)
+##print('-'*40)
 
-str1=input()
-a=count_Specialcharacters(str1)
-print("No of specialcharacters in:'",str1,"'is",a)
+
+
+
+def add_five(x):
+    temp=x+5
+    return temp
+nums=[11,22,33,44,55]
+result=[i+5 for i in nums]
+#print(nums)
+print(result)
+#print('-'*40)
