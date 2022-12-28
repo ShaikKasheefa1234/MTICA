@@ -1,7 +1,11 @@
-#'abc'+str(5)
-#'abc'*str(5)
-'abc'+5
-'abc'*5
-#'abc'+5.0
-#'abc'+float(5.0)
-#str(3.0)*3
+'''lst1=[1,2,3,4,5]
+ans=[]
+for i in lst1:
+    ans.append(i)
+print(ans)'''
+
+
+lst1=[1,2,3,4,5]
+ans=[i for i in lst1]
+print(ans)
+
