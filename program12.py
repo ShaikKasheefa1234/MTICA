@@ -1,14 +1,14 @@
-'''#x= input('Enter an integer ==> '), sep=''
-x = int(input('Enter an integer ==> '))
-y = x // 10
-z = y % 10
-print(x, ',', y, z)'''
+'''Lst=[10,15,20,25,30,35,40,45]
+ans=[]
+for i in Lst:
+    ans.append(i+6)
+print(ans)'''
 
 
 
 
-#x= input('Enter an integer ==> '), sep=''
-x = int(input('Enter an integer ==> '))
-y = x // 10
-z = y % 10
-print(x, ',', y, z, sep='')
+
+Lst=[10,15,20,25,30,35,40,45]
+ans=[i+6 for i in Lst]
+print(ans)
+
