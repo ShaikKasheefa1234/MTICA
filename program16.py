@@ -1,9 +1,16 @@
-def extract_Digit(s):
-    temp_Digit=''
-    for i in s:
-        if i in '0123456789':
-            temp_Digit+=i
-    return temp_Digit
-str1=input()
-a=extract_Digit(str1)
-print("digits in:'",str1,"' is",a)
+'''Lst=[10,15,2,25,30,3,40,4]
+ans=[]
+for i in Lst:
+    if i*i>=50:
+        ans.append(i*i)
+print(ans)'''
+
+
+
+Lst=[10,15,2,25,30,3,40,4]
+ans=[i*i for i in Lst if i*i>=50]
+#for i in Lst:
+    #if i*i>=50:
+        #ans.append(i*i)
+print(ans)
+
