@@ -1,5 +1,12 @@
-x=input('Enter an integer==> ')
-x=x*2
-x=int(x)
-x *=2
-print("x is:",x)
+'''ans=[]
+for i in range(1200,2001,130):
+    ans.append(i)
+print(ans)'''
+
+
+
+ans=[i for i in range(1200,2001,130)]
+#for i in range(1200,2001,130):
+    #ans.append(i)
+print(ans)
+
