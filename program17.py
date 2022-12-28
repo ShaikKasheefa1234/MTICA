@@ -1,10 +1,17 @@
-def count_Digit(s):
-    n_Digit=0
-    for i in s:
-        if i in '123456789':
-            n_Digit+=1
-    return n_Digit
+'''dict1={"sadan": 1500, "SVU": 2000, "Pickup": 2500, "Minivan": 1600, "Van": 2400, "Semi": 13600, "Bicycle": 7, "Motorcycle": 110}
+ans=[]
+for i in dict1:
+    if dict1[i]<5000:
+        ans.append(i.upper())
+print(ans)'''
 
-str1=input()
-a=count_Digit(str1)
-print("No of digits in:'",str1,"'is",a)
+
+
+
+dict1={"sadan": 1500, "SVU": 2000, "Pickup": 2500, "Minivan": 1600, "Van": 2400, "Semi": 13600, "Bicycle": 7, "Motorcycle": 110}
+ans=[i.upper()for i in dict1 if dict1[i]<5000]
+#for i in dict1:
+    #if dict1[i]<5000:
+       # ans.append(i.upper())
+print(ans)
+
