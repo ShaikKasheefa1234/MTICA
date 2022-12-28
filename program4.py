@@ -1,11 +1,7 @@
-''''s0="*\t*\n**\t**\n***\t***\n"
-s1="I said,\"This is a valid string.\""
-print("s0:",s0)
-print("s1:",s1)'''
-
-
-s0="*\t*\n**\t**\n***\t***\n"
-s1="I said,\"This is a valid string.\""
-print("s0:\n",s0)
-print("s1:\n",s1)
- 
+ans=[]
+for i in range(1,101):
+    for j in range(2,10):
+        if i%j==0:
+            ans.append(i)
+            break
+print(ans)
